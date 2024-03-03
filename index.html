@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
-    <title>SEATWORK-1</title>
+    <title>no</title>
  <style>
     
     body {
       background-image: url(https://i.redd.it/zf4z6utfezua1.png);
-      background-size: 2740px;
+      background-size: 4500px;
       background-repeat: no-repeat;
     }
 
@@ -90,13 +90,63 @@
     color:#8E7C7E;
    }
 
+  .login {
+    font-family: 'Forum', serif;
+     font-weight: bold;
+    background-color:#e6e6fa;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+  .register {
+    margin-left: 10px;
+    background-color: #563c5c;
+    color:white ;
+  }
 
 </style>
 </head>
 <body>
-    <div class="image"> 
-        <img src= "https://upload.wikimedia.org/wikipedia/en/b/b1/Honkai-Star-Rail.png"></div>
-    <div class="container mt-3">           
+ <div class="image"> 
+      <img src= "https://upload.wikimedia.org/wikipedia/en/b/b1/Honkai-Star-Rail.png"></div>
+  <div class="login container mt-4 p-5 border">
+    <h2> User Registration</h2>
+    <form>
+  <div class="username mb-3">
+      <label for="inputUsername" class="col-sm-2"> Username: </label> 
+  <div class="col-sm-10">
+          <input type="username" class="form-control" id="inputUsername" placeholder="Enter your username">
+    </div>
+  </div>
+  <div class="email mb-3">
+        <label for="inputEmail" class="col-sm-2"> Email Address </label>
+  <div class="col-sm-10">
+         <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+    </div>
+  </div>
+
+  <div class="password mb-3"> 
+        <label for="inputPassword" class="col-sm-2"> Password: </label>
+  <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
+   </div>
+ </div>
+
+  <div class="c-password mb-3"> 
+        <label for="inputC-Password" class="col-sm-2"> Confirm Password: </label>
+  <div class="col-sm-10">
+          <input type="c-password" class="form-control" id="inputC-Password" placeholder="Confirm your password">
+  </div>
+</div>
+
+ <div class="tc mb-3"> 
+        <input type="checkbox" id="checkTC">
+        <label for="checkTC"> I agree to the terms and conditions </label>
+ </div>
+      <button type="submit" class="register btn btn-secondary"> Register </button> 
+    </form>
+  </div>
+ <div class="container mt-3">  
+
   <table class="table-bordered">
     <thead>
       <tr>
